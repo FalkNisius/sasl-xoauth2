@@ -1,3 +1,11 @@
+sasl-xoauth2 (0.28) noble; urgency=low
+
+  * allow additional option manage_token_externally to prevent refresh and prevent assume refresh_token in token file
+  * add additional option use_client_credentials to use the client_credentials grant_type on refresh
+  * add scope to ovverride config, use in the client credential flow, and serialize optional flags in a better way
+
+ -- Falk Nisius <falk.nisius@equeo.de>  Mon, 16 Jun 2025 21:35:06 +0200
+
 sasl-xoauth2 (0.27) unstable; urgency=low [NOT YET RELEASED]
 
   * Fix bug preventing tokens from specifying empty client secrets.
