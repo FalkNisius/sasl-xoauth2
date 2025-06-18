@@ -1,11 +1,3 @@
-sasl-xoauth2 (0.26-1ubuntu1~noble1~ppa2) UNRELEASED; urgency=medium
-
-  * allow additional option manage_token_externally to prevent refresh and prevent assume refresh_token in token file
-  * add additional option use_client_credentials to use the client_credentials grant_type on refresh
-  * add scope to ovverride config, use in the client credential flow, and serialize optional flags in a better way 
-
- -- root <root@dev2.equeo.de>  Mon, 16 Jun 2025 21:35:06 +0200
-
 sasl-xoauth2 (0.26-1ubuntu1~noble1~ppa1) noble; urgency=medium
 
   * Implement custom refresh_window parameter
